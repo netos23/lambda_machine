@@ -1,10 +1,12 @@
 name: lambda_machine_cli
 description: A sample command-line application with basic argument parsing.
 version: 0.0.1
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/netos23/lambda_machine
 
 environment:
   sdk: ^3.5.2
+
+resolution: workspace
 
 # Add regular dependencies here.
 dependencies:
